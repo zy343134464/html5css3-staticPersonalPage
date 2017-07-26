@@ -37,7 +37,7 @@ html,body{
 	vertical-align: middle;
 }
 .header-title > h2{
-	font-size: 50px;
+	font-size: 40px;
 }
 .header-title > p{
 	margin-top: 20px;
@@ -76,6 +76,7 @@ html,body{
 }
 .skill{
 	text-align: center;
+	padding: 100px 0;
 	background: rgb(50,120,183);
 	color: #fff;
 }
@@ -96,9 +97,6 @@ html,body{
 	width: 225px;
 	margin-right: 20px;
 }
-.skill li > .btn{
-	color: #fff;
-}
 .clearfix:after{
 	content: "";
 	display: block;
@@ -114,30 +112,15 @@ html,body{
 	text-align: left;
 	font-size: 14px;
 }
-.skill li > .btn{
-	bottom: 20px;
-	display: inline-block;
-	width: 100px;
-	height: 30px;
-	line-height: 30px;
-	background-color: #fff;
-	color: #000;
-	margin: 40px 0;
-}
-.skill li > .btn:hover{
-	background: blue;
-	color: #fff;
-}
-
 .content{
 	height: 500px;
 	background: url(../images/callout.jpg) no-repeat;
-	background-size: contain;
+	background-size: 100% 100%;
 }
 .content h2{
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 500px;
-	color: white;
+	color: #fff;
 	text-align: center;
 }
 .production{
